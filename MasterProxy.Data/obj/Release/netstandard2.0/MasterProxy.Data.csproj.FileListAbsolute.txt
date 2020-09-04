@@ -1,0 +1,9 @@
+D:\vscode\master\MasterProxy\MasterProxy.Data\bin\Release\netstandard2.0\MasterProxy.Data.deps.json
+D:\vscode\master\MasterProxy\MasterProxy.Data\bin\Release\netstandard2.0\MasterProxy.Data.dll
+D:\vscode\master\MasterProxy\MasterProxy.Data\bin\Release\netstandard2.0\MasterProxy.Data.pdb
+D:\vscode\master\MasterProxy\MasterProxy.Data\obj\Release\netstandard2.0\MasterProxy.Data.csprojAssemblyReference.cache
+D:\vscode\master\MasterProxy\MasterProxy.Data\obj\Release\netstandard2.0\MasterProxy.Data.csproj.CoreCompileInputs.cache
+D:\vscode\master\MasterProxy\MasterProxy.Data\obj\Release\netstandard2.0\MasterProxy.Data.AssemblyInfoInputs.cache
+D:\vscode\master\MasterProxy\MasterProxy.Data\obj\Release\netstandard2.0\MasterProxy.Data.AssemblyInfo.cs
+D:\vscode\master\MasterProxy\MasterProxy.Data\obj\Release\netstandard2.0\MasterProxy.Data.dll
+D:\vscode\master\MasterProxy\MasterProxy.Data\obj\Release\netstandard2.0\MasterProxy.Data.pdb

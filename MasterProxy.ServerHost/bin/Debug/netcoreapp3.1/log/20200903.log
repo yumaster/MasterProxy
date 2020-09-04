@@ -1,0 +1,120 @@
+2020-09-03 17:52:22,310 [4] DEBUG MasterServer [(null)] - *** MasterProxy Server v1.3.7347.4137 ***
+2020-09-03 17:52:58,105 [4] DEBUG MasterServer [(null)] - *** MasterProxy Server v1.3.7347.4137 ***
+2020-09-03 17:52:58,914 [4] DEBUG MasterServer [(null)] - ClientManager initialized
+2020-09-03 17:52:58,930 [4] DEBUG MasterServer [(null)] - Listening client on port 7842...
+2020-09-03 17:52:58,946 [4] DEBUG MasterServer [(null)] - Master server started
+2020-09-03 17:52:59,172 [4] DEBUG MasterServer [(null)] - System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\vscode\master\MasterProxy\MasterProxy.ServerHost\bin\Debug\netcoreapp3.1\Web'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 63
+2020-09-03 17:52:59,276 [4] ERROR MasterServer [(null)] - System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\vscode\master\MasterProxy\MasterProxy.ServerHost\bin\Debug\netcoreapp3.1\Web'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 63
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\vscode\master\MasterProxy\MasterProxy.ServerHost\bin\Debug\netcoreapp3.1\Web'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 63
+2020-09-03 17:52:59,283 [4] DEBUG MasterServer [(null)] - Http服务结束。
+2020-09-03 17:52:59,290 [4] DEBUG MasterServer [(null)] - SSL CA Generating...
+2020-09-03 17:52:59,293 [4] DEBUG MasterServer [(null)] - SSL CA Generated.
+2020-09-03 17:52:59,295 [4] DEBUG MasterServer [(null)] - Listening config request on port 7841...
+2020-09-03 17:53:27,208 [8] DEBUG MasterServer [(null)] - System.Exception: 接收到异常请求。
+   at MasterProxy.Server.ProcessConfigRequestAsync(TcpClient client) in D:\vscode\master\MasterProxy\MasterProxy\Server.cs:line 570
+2020-09-03 18:03:32,719 [4] DEBUG MasterServer [(null)] - *** MasterProxy Server v1.3.7347.4137 ***
+2020-09-03 18:03:33,260 [4] DEBUG MasterServer [(null)] - ClientManager initialized
+2020-09-03 18:03:33,268 [4] DEBUG MasterServer [(null)] - Listening client on port 7842...
+2020-09-03 18:03:33,280 [4] DEBUG MasterServer [(null)] - Master server started
+2020-09-03 18:03:33,345 [4] DEBUG MasterServer [(null)] - System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\vscode\master\MasterProxy\MasterProxy.ServerHost\bin\Debug\netcoreapp3.1\Web'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 63
+2020-09-03 18:03:33,393 [4] ERROR MasterServer [(null)] - System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\vscode\master\MasterProxy\MasterProxy.ServerHost\bin\Debug\netcoreapp3.1\Web'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 63
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\vscode\master\MasterProxy\MasterProxy.ServerHost\bin\Debug\netcoreapp3.1\Web'.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.FileInfos(String directory, String expression, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.DirectoryInfo.InternalEnumerateInfos(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern, EnumerationOptions enumerationOptions)
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern)
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 63
+2020-09-03 18:03:33,465 [4] DEBUG MasterServer [(null)] - Http服务结束。
+2020-09-03 18:03:33,473 [4] DEBUG MasterServer [(null)] - SSL CA Generating...
+2020-09-03 18:03:33,487 [4] DEBUG MasterServer [(null)] - SSL CA Generated.
+2020-09-03 18:03:33,506 [4] DEBUG MasterServer [(null)] - Listening config request on port 7841...
+2020-09-03 18:07:05,253 [4] DEBUG MasterServer [(null)] - *** MasterProxy Server v1.3.7347.4137 ***
+2020-09-03 18:07:05,769 [4] DEBUG MasterServer [(null)] - ClientManager initialized
+2020-09-03 18:07:05,782 [4] DEBUG MasterServer [(null)] - Listening client on port 7842...
+2020-09-03 18:07:05,795 [4] DEBUG MasterServer [(null)] - Master server started
+2020-09-03 18:07:05,825 [4] DEBUG MasterServer [(null)] - 26 files cached.
+2020-09-03 18:07:05,839 [4] DEBUG MasterServer [(null)] - Listening HTTP request on port 12309...
+2020-09-03 18:07:05,956 [4] DEBUG MasterServer [(null)] - Please run this program in administrator mode.System.Net.HttpListenerException (5): 拒绝访问。
+   at System.Net.HttpListener.AddPrefixCore(String registeredPrefix)
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at MasterProxy.Infrastructure.Extension.HttpServer.AcceptHttpRequest(HttpListener httpService, CancellationTokenSource ctsHttp) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 94
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 77
+2020-09-03 18:07:05,957 [4] ERROR MasterServer [(null)] - System.Net.HttpListenerException (5): 拒绝访问。
+   at System.Net.HttpListener.AddPrefixCore(String registeredPrefix)
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at MasterProxy.Infrastructure.Extension.HttpServer.AcceptHttpRequest(HttpListener httpService, CancellationTokenSource ctsHttp) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 94
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 77
+System.Net.HttpListenerException (5): 拒绝访问。
+   at System.Net.HttpListener.AddPrefixCore(String registeredPrefix)
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at MasterProxy.Infrastructure.Extension.HttpServer.AcceptHttpRequest(HttpListener httpService, CancellationTokenSource ctsHttp) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 94
+   at MasterProxy.Infrastructure.Extension.HttpServer.StartHttpService(CancellationTokenSource ctsHttp, Int32 WebManagementPort) in D:\vscode\master\MasterProxy\MasterProxy.Infrastructure\Extensions\HttpServer\HttpServer.cs:line 77
+2020-09-03 18:07:05,962 [4] DEBUG MasterServer [(null)] - Http服务结束。
+2020-09-03 18:07:05,968 [4] DEBUG MasterServer [(null)] - SSL CA Generating...
+2020-09-03 18:07:05,969 [4] DEBUG MasterServer [(null)] - SSL CA Generated.
+2020-09-03 18:07:05,970 [4] DEBUG MasterServer [(null)] - Listening config request on port 7841...
+2020-09-03 18:07:34,747 [4] DEBUG MasterServer [(null)] - *** MasterProxy Server v1.3.7347.4137 ***
+2020-09-03 18:07:34,956 [4] DEBUG MasterServer [(null)] - ClientManager initialized
+2020-09-03 18:07:34,958 [4] DEBUG MasterServer [(null)] - Listening client on port 7842...
+2020-09-03 18:07:34,967 [4] DEBUG MasterServer [(null)] - Master server started
+2020-09-03 18:07:34,984 [4] DEBUG MasterServer [(null)] - 26 files cached.
+2020-09-03 18:07:34,991 [4] DEBUG MasterServer [(null)] - Listening HTTP request on port 12309...
+2020-09-03 18:07:35,000 [4] DEBUG MasterServer [(null)] - SSL CA Generating...
+2020-09-03 18:07:35,001 [4] DEBUG MasterServer [(null)] - SSL CA Generated.
+2020-09-03 18:07:35,002 [4] DEBUG MasterServer [(null)] - Listening config request on port 7841...
+2020-09-03 18:07:43,478 [8] DEBUG MasterServer [(null)] - 未找到文件./Web//.html
+2020-09-03 18:07:43,488 [7] DEBUG MasterServer [(null)] - 未找到文件./Web//.js
+2020-09-03 18:08:05,775 [6] DEBUG MasterServer [(null)] - 未找到文件./Web//.html
+2020-09-03 18:08:05,795 [6] DEBUG MasterServer [(null)] - 未找到文件./Web//.js

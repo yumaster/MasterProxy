@@ -1,0 +1,14 @@
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Debug\netstandard2.0\MasterProxy.ClientRouter.csprojAssemblyReference.cache
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Debug\netstandard2.0\MasterProxy.ClientRouter.csproj.CoreCompileInputs.cache
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Debug\netstandard2.0\MasterProxy.ClientRouter.AssemblyInfoInputs.cache
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Debug\netstandard2.0\MasterProxy.ClientRouter.AssemblyInfo.cs
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Debug\netstandard2.0\MasterProxy.ClientRouter.deps.json
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Debug\netstandard2.0\MasterProxy.ClientRouter.dll
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Debug\netstandard2.0\MasterProxy.ClientRouter.pdb
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Debug\netstandard2.0\MasterProxy.Data.dll
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Debug\netstandard2.0\MasterProxy.Infrastructure.dll
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Debug\netstandard2.0\MasterProxy.Data.pdb
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Debug\netstandard2.0\MasterProxy.Infrastructure.pdb
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Debug\netstandard2.0\MasterProxy.ClientRouter.csproj.CopyComplete
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Debug\netstandard2.0\MasterProxy.ClientRouter.dll
+D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Debug\netstandard2.0\MasterProxy.ClientRouter.pdb
