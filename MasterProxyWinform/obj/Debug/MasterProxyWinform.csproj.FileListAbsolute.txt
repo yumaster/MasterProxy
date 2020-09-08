@@ -57,3 +57,7 @@ D:\vscode\master\MasterProxy\MasterProxyWinform\bin\Debug\appsettings.json
 D:\vscode\master\MasterProxy\MasterProxyWinform\bin\Debug\log4net.config
 D:\vscode\master\MasterProxy\MasterProxyWinform\bin\Debug\Newtonsoft.Json.dll
 D:\vscode\master\MasterProxy\MasterProxyWinform\bin\Debug\Newtonsoft.Json.xml
+D:\vscode\master\MasterProxy\MasterProxyWinform\bin\Debug\MasterProxyWinform.exe.manifest
+D:\vscode\master\MasterProxy\MasterProxyWinform\bin\Debug\MasterProxyWinform.application
+D:\vscode\master\MasterProxy\MasterProxyWinform\obj\Debug\MasterProxyWinform.exe.manifest
+D:\vscode\master\MasterProxy\MasterProxyWinform\obj\Debug\MasterProxyWinform.application

@@ -802,3 +802,826 @@ System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
 2020-09-04 11:23:30,514 [12] DEBUG MasterServerClient [(null)] - 验证成功。
 2020-09-04 11:23:30,516 [12] DEBUG MasterServerClient [(null)] - ClientID:44630 AppId:2 已连接
 2020-09-04 11:23:30,518 [12] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:05:53,542 [1] DEBUG MasterServerClient [(null)] - System.AggregateException: 发生一个或多个错误。 ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 69
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MasterProxyWinform.ClientMngr.btnTest_Click(Object sender, EventArgs e) 位置 D:\vscode\master\MasterProxy\MasterProxyWinform\ClientMngr.cs:行号 880
+---> (内部异常 #0) Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 69<---
+
+2020-09-04 13:05:59,002 [1] DEBUG MasterServerClient [(null)] - System.AggregateException: 发生一个或多个错误。 ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 69
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MasterProxyWinform.ClientMngr.btnTest_Click(Object sender, EventArgs e) 位置 D:\vscode\master\MasterProxy\MasterProxyWinform\ClientMngr.cs:行号 880
+---> (内部异常 #0) Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 69<---
+
+2020-09-04 13:06:53,967 [1] DEBUG MasterServerClient [(null)] - System.AggregateException: 发生一个或多个错误。 ---> System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 在其上下文中，该请求的地址无效。
+   在 System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.Socket.UnsafeBeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MasterProxyWinform.ClientMngr.btnTest_Click(Object sender, EventArgs e) 位置 D:\vscode\master\MasterProxy\MasterProxyWinform\ClientMngr.cs:行号 880
+---> (内部异常 #0) System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 在其上下文中，该请求的地址无效。
+   在 System.Net.Sockets.Socket.BeginConnectEx(EndPoint remoteEP, Boolean flowContext, AsyncCallback callback, Object state)
+   在 System.Net.Sockets.Socket.UnsafeBeginConnect(EndPoint remoteEP, AsyncCallback callback, Object state)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67<---
+
+2020-09-04 13:06:58,282 [1] DEBUG MasterServerClient [(null)] - System.AggregateException: 发生一个或多个错误。 ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 69
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MasterProxyWinform.ClientMngr.btnTest_Click(Object sender, EventArgs e) 位置 D:\vscode\master\MasterProxy\MasterProxyWinform\ClientMngr.cs:行号 880
+---> (内部异常 #0) Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 69<---
+
+2020-09-04 13:07:27,293 [1] DEBUG MasterServerClient [(null)] - System.AggregateException: 发生一个或多个错误。 ---> System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 203.107.43.165:8014
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MasterProxyWinform.ClientMngr.btnTest_Click(Object sender, EventArgs e) 位置 D:\vscode\master\MasterProxy\MasterProxyWinform\ClientMngr.cs:行号 880
+---> (内部异常 #0) System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 203.107.43.165:8014
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67<---
+
+2020-09-04 13:08:20,597 [1] DEBUG MasterServerClient [(null)] - System.AggregateException: 发生一个或多个错误。 ---> System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:12309
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MasterProxyWinform.ClientMngr.btnTest_Click(Object sender, EventArgs e) 位置 D:\vscode\master\MasterProxy\MasterProxyWinform\ClientMngr.cs:行号 880
+---> (内部异常 #0) System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:12309
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67<---
+
+2020-09-04 13:08:31,164 [1] DEBUG MasterServerClient [(null)] - System.AggregateException: 发生一个或多个错误。 ---> System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 47.98.151.188:12309
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 MasterProxyWinform.ClientMngr.btnTest_Click(Object sender, EventArgs e) 位置 D:\vscode\master\MasterProxy\MasterProxyWinform\ClientMngr.cs:行号 880
+---> (内部异常 #0) System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 47.98.151.188:12309
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerPorts>d__8.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 67<---
+
+2020-09-04 13:09:20,465 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:09:20,472 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:09:20,491 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:09:41,505 [1] ERROR MasterServerClient [(null)] - 发生一个或多个错误。
+System.AggregateException: 发生一个或多个错误。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- 内部异常堆栈跟踪的结尾 ---
+---> (内部异常 #0) System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+2020-09-04 13:09:41,576 [8] ERROR MasterServerClient [(null)] - 连接失败：发生一个或多个错误。
+System.AggregateException: 发生一个或多个错误。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MasterProxy.Client.ServerConnectionManager.<InitConfig>d__13.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 67
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.Client.Router.<Start>d__23.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Router.cs:行号 253
+---> (内部异常 #0) System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+2020-09-04 13:09:41,579 [8] DEBUG MasterServerClient [(null)] - 程序启动失败。
+2020-09-04 13:09:47,905 [1] INFO  MasterServerClient [(null)] - 客户端请求服务端配置，但服务端没有对客户端设置配置，将继续使用客户端配置。
+2020-09-04 13:09:48,018 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:09:48,019 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:09:48,020 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:09:48,540 [8] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:09:48,542 [8] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20000=>127.0.0.1:80
+2020-09-04 13:09:48,543 [8] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20001=>127.0.0.1:8058
+2020-09-04 13:09:48,544 [8] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:09:51,937 [10] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:09:51,941 [9] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:09:51,943 [9] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:09:52,369 [10] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:09:52,371 [8] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:09:52,372 [8] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:25,354 [4] DEBUG MasterServerClient [(null)] - 1接收到连接请求(TCP)
+2020-09-04 13:10:25,677 [17] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:10:25,679 [8] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:10:25,680 [8] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:25,684 [8] DEBUG MasterServerClient [(null)] - 已建立反向连接:1
+2020-09-04 13:10:25,686 [8] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:80
+2020-09-04 13:10:25,688 [8] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:10:36,660 [17] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:10:36,999 [17] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:10:37,001 [17] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:10:37,003 [17] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:37,005 [17] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:10:37,008 [17] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:10:37,010 [17] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:10:38,447 [17] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:10:38,936 [4] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:10:38,938 [8] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:10:38,939 [8] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:38,940 [8] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:10:38,945 [8] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:10:38,946 [8] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:10:39,120 [19] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:10:39,329 [19] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:10:39,330 [8] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:10:39,331 [8] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:39,338 [8] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:10:39,342 [8] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:10:39,343 [8] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:10:39,539 [4] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:10:39,838 [17] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:10:39,844 [8] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:10:39,847 [8] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:39,854 [8] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:10:39,858 [8] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:10:39,861 [8] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:10:39,962 [17] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:10:40,517 [4] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:10:40,524 [8] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:10:40,527 [8] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:40,533 [8] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:10:40,540 [8] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:10:40,544 [8] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:10:40,660 [19] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:10:40,960 [18] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:10:40,962 [14] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:10:40,964 [14] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:10:40,971 [14] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:10:40,976 [14] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:10:40,977 [14] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:10:50,772 [8] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:10:50,776 [8] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:10:50,885 [19] DEBUG MasterServerClient [(null)] - 127.0.0.1:80对节点传输关闭。
+2020-09-04 13:10:50,886 [19] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:10:50,887 [19] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:10:50,908 [4] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:10:50,909 [19] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:10:50,910 [17] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:10:50,911 [12] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:10:50,912 [18] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:10:50,913 [9] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:10:50,913 [4] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:10:50,921 [19] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:10:50,930 [17] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:10:50,940 [12] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:10:50,950 [18] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:10:50,959 [9] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:10:50,968 [4] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:10:50,971 [19] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:10:50,972 [17] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:10:50,973 [12] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:10:50,974 [18] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:10:50,975 [9] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:10:51,779 [8] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:12:04,968 [1] INFO  MasterServerClient [(null)] - 客户端请求服务端配置，但服务端没有对客户端设置配置，将继续使用客户端配置。
+2020-09-04 13:12:05,024 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:12:05,028 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:12:05,031 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:12:05,560 [6] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:12:05,561 [6] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20001=>127.0.0.1:80
+2020-09-04 13:12:05,562 [6] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20002=>127.0.0.1:8058
+2020-09-04 13:12:05,564 [6] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:12:06,245 [5] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:12:06,246 [9] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:12:06,247 [9] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:12:06,649 [5] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:12:06,650 [6] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:12:06,651 [6] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:13:03,679 [24] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:13:04,493 [26] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:13:04,499 [11] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:13:04,505 [11] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:13:04,507 [11] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:13:04,509 [11] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:13:04,510 [11] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:13:04,946 [23] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:13:05,326 [24] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:13:05,328 [6] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:13:05,329 [6] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:13:05,330 [6] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:13:05,334 [6] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:13:05,335 [6] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:13:05,373 [25] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:13:05,613 [26] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:13:05,614 [6] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:13:05,616 [6] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:13:05,620 [6] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:13:05,623 [6] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:13:05,627 [6] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:13:05,659 [26] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:13:05,887 [24] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:13:05,891 [11] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:13:05,892 [11] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:13:05,894 [11] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:13:05,896 [11] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:13:05,897 [11] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:13:05,954 [26] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:13:06,225 [25] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:13:06,230 [6] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:13:06,239 [6] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:13:06,242 [6] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:13:06,246 [6] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:13:06,248 [6] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:13:06,406 [24] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:13:06,601 [23] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:13:06,603 [6] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:13:06,605 [6] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:13:06,610 [6] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:13:06,614 [6] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:13:06,617 [6] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:13:26,445 [11] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:13:26,447 [11] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:13:27,450 [6] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:13:27,600 [23] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:13:27,601 [24] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:13:27,601 [26] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:13:27,602 [25] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:13:27,603 [22] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:13:27,604 [23] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:13:27,604 [24] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:13:27,605 [26] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:13:27,606 [25] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:13:27,607 [22] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:13:27,607 [23] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:13:27,608 [24] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:13:27,620 [26] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:13:27,638 [25] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:13:27,658 [22] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:13:27,659 [23] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:13:27,660 [23] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:13:27,671 [23] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:14:04,608 [1] ERROR MasterServerClient [(null)] - 获取配置失败，本地错误：System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:8014
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.ClientRouter.Dispatchers.MPDispatcher.<GetServerClientConfig>d__9.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:行号 93
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 MasterProxy.Client.Router.<Start>d__23.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Router.cs:行号 197
+2020-09-04 13:14:04,727 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:14:04,728 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:14:04,729 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:14:25,736 [1] ERROR MasterServerClient [(null)] - 发生一个或多个错误。
+System.AggregateException: 发生一个或多个错误。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- 内部异常堆栈跟踪的结尾 ---
+---> (内部异常 #0) System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+2020-09-04 13:14:25,788 [21] ERROR MasterServerClient [(null)] - 连接失败：发生一个或多个错误。
+System.AggregateException: 发生一个或多个错误。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MasterProxy.Client.ServerConnectionManager.<InitConfig>d__13.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 67
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 MasterProxy.Client.Router.<Start>d__23.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Router.cs:行号 253
+---> (内部异常 #0) System.Net.Sockets.SocketException (0x80004005): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 47.98.151.188:7841
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   在 System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)<---
+
+2020-09-04 13:14:25,791 [21] DEBUG MasterServerClient [(null)] - 程序启动失败。
+2020-09-04 13:14:49,129 [1] INFO  MasterServerClient [(null)] - 客户端请求服务端配置，但服务端没有对客户端设置配置，将继续使用客户端配置。
+2020-09-04 13:14:49,189 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:14:49,191 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:14:49,192 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:14:50,162 [21] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:14:50,163 [21] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20001=>127.0.0.1:80
+2020-09-04 13:14:50,164 [21] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20002=>127.0.0.1:8058
+2020-09-04 13:14:50,165 [21] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:14:50,620 [5] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:14:50,621 [22] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:14:50,622 [22] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:14:50,870 [15] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:14:50,872 [21] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:14:50,873 [21] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:15:43,429 [21] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:15:43,431 [21] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:15:44,434 [21] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:41:39,213 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:41:39,241 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:41:39,245 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:41:39,325 [7] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:41:39,326 [7] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20001=>127.0.0.1:80
+2020-09-04 13:41:39,327 [7] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20002=>127.0.0.1:8058
+2020-09-04 13:41:39,328 [7] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:41:39,479 [10] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:39,480 [4] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:41:39,481 [4] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:39,630 [13] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:39,631 [10] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:41:39,632 [10] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:55,231 [10] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:41:55,387 [15] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:55,388 [14] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:41:55,389 [14] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:55,390 [14] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:41:55,392 [14] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:41:55,394 [14] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:41:55,420 [14] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:41:55,555 [15] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:55,556 [14] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:41:55,557 [14] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:55,557 [14] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:41:55,560 [14] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:41:55,561 [14] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:41:56,339 [15] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:41:56,514 [14] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:56,518 [15] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:41:56,525 [15] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:56,527 [15] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:41:56,530 [15] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:41:56,533 [15] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:41:56,548 [14] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:41:56,691 [14] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:56,693 [14] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:41:56,695 [14] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:56,697 [14] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:41:56,701 [14] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:41:56,707 [14] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:41:56,726 [14] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:41:56,891 [14] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:56,895 [12] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:41:56,900 [12] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:56,911 [12] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:41:56,915 [12] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:41:56,918 [12] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:41:56,925 [12] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:41:57,065 [14] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:41:57,071 [14] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:41:57,075 [14] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:41:57,078 [14] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:41:57,088 [14] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:41:57,092 [14] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:44:00,416 [21] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:44:00,417 [3] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:44:00,417 [19] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:44:00,418 [20] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:44:00,418 [21] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:44:00,418 [3] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:44:00,419 [19] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:44:00,419 [20] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:44:00,420 [21] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:44:00,420 [3] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:44:00,421 [21] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:44:00,421 [3] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:45:12,065 [26] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:45:12,215 [27] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:45:12,216 [25] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:45:12,217 [25] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:45:12,218 [25] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:45:12,219 [25] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:45:12,220 [25] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:45:13,067 [27] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:45:13,207 [25] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:45:13,209 [27] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:45:13,210 [27] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:45:13,211 [27] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:45:13,212 [27] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:45:13,213 [27] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:45:17,145 [27] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:45:17,289 [25] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:45:17,290 [27] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:45:17,291 [27] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:45:17,292 [27] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:45:17,293 [27] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:45:17,294 [27] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:47:22,243 [39] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:47:22,244 [37] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:47:22,244 [40] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:47:22,245 [39] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:47:22,245 [37] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:47:22,246 [40] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:48:13,578 [44] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:48:13,718 [46] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:48:13,721 [42] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:48:13,723 [42] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:48:13,724 [42] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:48:13,729 [42] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:48:13,730 [42] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:48:13,747 [46] DEBUG MasterServerClient [(null)] - 2接收到连接请求(TCP)
+2020-09-04 13:48:13,893 [42] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:48:13,900 [46] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:48:13,915 [46] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:48:13,922 [46] DEBUG MasterServerClient [(null)] - 已建立反向连接:2
+2020-09-04 13:48:13,944 [46] DEBUG MasterServerClient [(null)] - 已连接目标服务:127.0.0.1:8058
+2020-09-04 13:48:13,948 [46] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:49:13,231 [40] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:49:13,254 [40] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:49:13,291 [31] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:49:13,292 [31] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:49:13,293 [31] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:49:13,293 [35] DEBUG MasterServerClient [(null)] - 127.0.0.1:8058对节点传输关闭。
+2020-09-04 13:49:13,294 [35] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:49:13,295 [35] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:49:14,256 [39] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:49:15,469 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:49:15,470 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:49:15,471 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:49:15,541 [33] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:49:15,542 [33] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20001=>127.0.0.1:80
+2020-09-04 13:49:15,543 [33] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20002=>127.0.0.1:8058
+2020-09-04 13:49:15,544 [33] DEBUG MasterServerClient [(null)] - 3:(TCP)yumaster.net:20003=>192.168.0.109:8066
+2020-09-04 13:49:15,544 [33] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:49:15,680 [35] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:49:15,681 [40] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:49:15,682 [40] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:49:15,823 [31] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:49:15,824 [35] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:49:15,825 [35] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:49:15,959 [31] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:49:15,960 [35] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:49:15,961 [35] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:49:26,838 [35] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:49:26,984 [31] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:49:26,994 [35] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:49:26,997 [35] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:49:27,003 [35] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:49:27,010 [35] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.109:8066
+2020-09-04 13:49:27,013 [35] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:49:27,028 [35] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:49:27,167 [35] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:49:27,170 [38] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:49:27,173 [38] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:49:27,174 [38] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:49:27,178 [38] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.109:8066
+2020-09-04 13:49:27,179 [38] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:50:13,867 [29] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:50:14,007 [28] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:50:14,009 [30] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:50:14,009 [30] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:50:14,010 [30] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:50:14,012 [30] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.109:8066
+2020-09-04 13:50:14,012 [30] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:50:14,872 [30] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:50:15,008 [28] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:50:15,009 [30] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:50:15,010 [30] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:50:15,010 [30] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:50:15,012 [30] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.109:8066
+2020-09-04 13:50:15,012 [30] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:50:15,018 [30] DEBUG MasterServerClient [(null)] - 192.168.0.109:8066反向链接传输关闭。
+2020-09-04 13:50:15,019 [30] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:50:15,019 [30] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:50:15,319 [30] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:50:15,457 [28] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:50:15,458 [30] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:50:15,459 [30] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:50:15,459 [30] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:50:15,463 [30] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.109:8066
+2020-09-04 13:50:15,463 [30] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:50:45,851 [28] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:50:45,989 [23] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:50:45,990 [24] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:50:45,990 [24] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:50:45,991 [24] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:50:45,993 [24] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.109:8066
+2020-09-04 13:50:45,993 [24] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:51:02,686 [24] DEBUG MasterServerClient [(null)] - 192.168.0.109:8066对节点传输关闭。
+2020-09-04 13:51:02,687 [24] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:51:02,690 [24] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:51:31,667 [24] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:51:31,668 [23] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:51:31,668 [24] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:51:31,669 [23] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:51:54,087 [21] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:51:54,091 [21] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:51:55,095 [37] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:51:55,149 [29] DEBUG MasterServerClient [(null)] - 192.168.0.109:8066对节点传输关闭。
+2020-09-04 13:51:55,150 [30] DEBUG MasterServerClient [(null)] - 192.168.0.109:8066对节点传输关闭。
+2020-09-04 13:51:55,150 [29] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:51:55,151 [30] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:51:55,152 [29] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:51:55,154 [30] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:51:55,411 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:51:55,411 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:51:55,412 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:51:55,484 [21] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:51:55,490 [21] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20001=>127.0.0.1:80
+2020-09-04 13:51:55,494 [21] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20002=>127.0.0.1:8058
+2020-09-04 13:51:55,496 [21] DEBUG MasterServerClient [(null)] - 3:(TCP)yumaster.net:20003=>192.168.0.109:8066
+2020-09-04 13:51:55,498 [21] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:51:55,645 [29] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:51:55,648 [29] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:51:55,674 [29] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:51:55,810 [30] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:51:55,811 [29] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:51:55,812 [29] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:51:55,946 [30] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:51:55,948 [29] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:51:55,949 [29] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:52:10,817 [37] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:52:10,820 [37] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:52:11,822 [39] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:52:18,146 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:52:18,147 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:52:18,149 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:52:18,222 [28] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:52:18,223 [28] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20001=>127.0.0.1:80
+2020-09-04 13:52:18,225 [28] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20002=>127.0.0.1:8058
+2020-09-04 13:52:18,227 [28] DEBUG MasterServerClient [(null)] - 3:(TCP)yumaster.net:20003=>192.168.0.109:8058
+2020-09-04 13:52:18,229 [28] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:52:18,369 [29] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:52:18,371 [22] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:52:18,372 [22] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:52:18,508 [29] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:52:18,512 [37] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:52:18,513 [37] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:52:18,648 [22] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:52:18,649 [29] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:52:18,652 [29] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:52:21,759 [21] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:52:21,761 [21] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:52:22,764 [39] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:52:27,578 [1] DEBUG MasterServerClient [(null)] - 配置端口：反向连接端口7842,配置端口7841
+2020-09-04 13:52:27,580 [1] DEBUG MasterServerClient [(null)] - ServerConnectionManager initialized.
+2020-09-04 13:52:27,581 [1] DEBUG MasterServerClient [(null)] - Reading Config From Provider..
+2020-09-04 13:52:27,658 [21] DEBUG MasterServerClient [(null)] - ****************port list*************
+2020-09-04 13:52:27,659 [21] DEBUG MasterServerClient [(null)] - 1:(TCP)yumaster.net:20001=>127.0.0.1:80
+2020-09-04 13:52:27,659 [21] DEBUG MasterServerClient [(null)] - 2:(TCP)yumaster.net:20002=>127.0.0.1:8058
+2020-09-04 13:52:27,660 [21] DEBUG MasterServerClient [(null)] - 3:(TCP)yumaster.net:20003=>192.168.0.15:8058
+2020-09-04 13:52:27,661 [21] DEBUG MasterServerClient [(null)] - **************************************
+2020-09-04 13:52:27,800 [29] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:52:27,801 [22] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:1 已连接
+2020-09-04 13:52:27,803 [22] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:52:27,934 [29] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:52:27,936 [22] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:2 已连接
+2020-09-04 13:52:27,937 [22] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:52:28,092 [29] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:52:28,093 [22] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:52:28,093 [22] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:53:00,550 [35] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:53:00,692 [24] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:53:00,693 [39] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:53:00,693 [39] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:53:00,694 [39] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:53:00,697 [39] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.15:8058
+2020-09-04 13:53:00,699 [39] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:53:00,955 [24] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:53:01,093 [35] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:53:01,096 [24] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:53:01,097 [24] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:53:01,098 [24] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:53:01,100 [24] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.15:8058
+2020-09-04 13:53:01,101 [24] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:53:01,125 [35] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:53:01,274 [35] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:53:01,276 [28] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:53:01,276 [28] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:53:01,277 [28] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:53:01,279 [28] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.15:8058
+2020-09-04 13:53:01,279 [28] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:53:01,306 [24] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:53:01,478 [35] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:53:01,480 [24] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:53:01,480 [24] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:53:01,481 [24] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:53:01,482 [24] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.15:8058
+2020-09-04 13:53:01,484 [24] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:53:01,512 [35] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:53:01,658 [24] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:53:01,658 [21] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:53:01,659 [21] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:53:01,660 [21] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:53:01,661 [21] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.15:8058
+2020-09-04 13:53:01,662 [21] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:53:01,687 [24] DEBUG MasterServerClient [(null)] - 3接收到连接请求(TCP)
+2020-09-04 13:53:01,846 [35] DEBUG MasterServerClient [(null)] - 验证成功。
+2020-09-04 13:53:01,847 [24] DEBUG MasterServerClient [(null)] - ClientID:53113 AppId:3 已连接
+2020-09-04 13:53:01,848 [24] DEBUG MasterServerClient [(null)] - Open server connection.
+2020-09-04 13:53:01,849 [24] DEBUG MasterServerClient [(null)] - 已建立反向连接:3
+2020-09-04 13:53:01,853 [24] DEBUG MasterServerClient [(null)] - 已连接目标服务:192.168.0.15:8058
+2020-09-04 13:53:01,854 [24] DEBUG MasterServerClient [(null)] - Looping start.
+2020-09-04 13:54:57,895 [41] ERROR MasterServerClient [(null)] - 心跳连接出错:已取消一个任务。
+System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 MasterProxy.Client.ServerConnectionManager.<StartHeartBeats>d__24.MoveNext() 位置 D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\ServerConnectionManager.cs:行号 421
+2020-09-04 13:54:57,897 [41] DEBUG MasterServerClient [(null)] - 心跳循环已终止。
+2020-09-04 13:54:58,900 [24] DEBUG MasterServerClient [(null)] - 心跳循环异常
+2020-09-04 13:54:58,957 [32] DEBUG MasterServerClient [(null)] - 192.168.0.15:8058对节点传输关闭。
+2020-09-04 13:54:58,958 [32] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:54:58,959 [32] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:54:58,962 [32] DEBUG MasterServerClient [(null)] - 192.168.0.15:8058对节点传输关闭。
+2020-09-04 13:54:58,962 [42] DEBUG MasterServerClient [(null)] - 192.168.0.15:8058对节点传输关闭。
+2020-09-04 13:54:58,963 [38] DEBUG MasterServerClient [(null)] - 192.168.0.15:8058对节点传输关闭。
+2020-09-04 13:54:58,963 [40] DEBUG MasterServerClient [(null)] - 192.168.0.15:8058对节点传输关闭。
+2020-09-04 13:54:58,964 [32] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:54:58,967 [42] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:54:58,967 [38] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:54:58,969 [40] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:54:58,971 [32] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:54:58,972 [42] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:54:58,972 [38] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:54:58,973 [40] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
+2020-09-04 13:54:58,974 [32] DEBUG MasterServerClient [(null)] - 192.168.0.15:8058对节点传输关闭。
+2020-09-04 13:54:58,975 [32] DEBUG MasterServerClient [(null)] - 已关闭toProvider连接。
+2020-09-04 13:54:58,976 [32] DEBUG MasterServerClient [(null)] - 已关闭toTargetServer连接。
