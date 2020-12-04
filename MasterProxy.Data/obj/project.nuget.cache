@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MnEGiROqepeW0WOnYHSPEkG5fWckRkROIfnsm//R1U/cMwjgPopzLYHc+w3rbrcNA7JhYxewBsEH8YBLm1dF+A==",
+  "dgSpecHash": "zS3uh206GD9zao26MTEpor6okn55xQtlBYID+l9pV5ubO6VHig/PdigwUWb7KN4vJpuqYi+FMq+Sd4XqMtLdmg==",
   "success": true,
-  "projectFilePath": "D:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj",
+  "projectFilePath": "E:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\yumas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\yumas\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

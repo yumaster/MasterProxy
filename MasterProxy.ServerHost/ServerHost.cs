@@ -49,7 +49,7 @@ namespace MasterProxy.ServerHost
             if (!mutex.WaitOne(3, false))
             {
                 //如果启动多个实例，则警告
-                string msg = "Another instance of the program is running.It may cause fatal error.";
+                string msg = "该程序的另一个实例正在运行。它可能导致致命错误";
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine(msg);
             }

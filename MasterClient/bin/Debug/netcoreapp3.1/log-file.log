@@ -1,0 +1,17 @@
+2020-09-29 10:56:16,908 [4] INFO  MasterServerClient [(null)] - *** MasterProxy Client v1.3.7347.4137 ***
+2020-09-29 10:56:17,266 [4] DEBUG MasterServerClient [(null)] - 未提供登录信息，尝试匿名登录
+2020-09-29 10:56:19,405 [6] ERROR MasterServerClient [(null)] - 启动失败：由于目标计算机积极拒绝，无法连接。
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at MasterProxy.ClientRouter.Dispatchers.MPDispatcher.LoginFromClient(String username, String userpwd) in D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Dispatchers\MPDispatcher.cs:line 48
+   at MasterProxy.Client.Router.Login() in D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Router.cs:line 347
+   at MasterProxy.Client.Router.Start(Boolean AlwaysReconnect, Action`1 complete) in D:\vscode\master\MasterProxy\MasterProxy.ClientRouter\Router.cs:line 170

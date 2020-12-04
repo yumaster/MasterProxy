@@ -78,7 +78,7 @@ namespace MasterProxy
                 Logger.Error(e.Message);
             }
             Console.Read();
-            Logger.Info("Client terminated,press any key to continue.");
+            Logger.Info("客户端已终止，请按任意键继续。");
 
         }
 

@@ -206,7 +206,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "xfcnRHRxUH6W5t+xqL+r8qjtTckwziOcBCdDAJHimuhJPgYy6trr3PP/7xYliqVL1JcUU1Pv7CiZ81tcgA6xMQ==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -221,7 +221,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "AgvOIZ9nD740aO1lKtY7RO9vRoejVIJsE4y7XZyhbSfxealfCuqvxZ390tEF18bAF5bQS+l4T1k8stYB9wldAA==",
+      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
@@ -549,11 +549,12 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.3.0": {
-      "sha512": "TIXOWv4nZJSBiMW90OMlcphvS5FGHd5gNeWF30nM7FeYarjfxlRm7s3IQ10UQZ9V7LvxmEAq/6hCly75njnZww==",
+      "sha512": "7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -848,23 +849,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yumas\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vscode\\master\\MasterProxy\\MasterProxy\\MasterProxy.csproj",
+      "projectUniqueName": "E:\\vscode\\master\\MasterProxy\\MasterProxy\\MasterProxy.csproj",
       "projectName": "MasterProxy",
-      "projectPath": "D:\\vscode\\master\\MasterProxy\\MasterProxy\\MasterProxy.csproj",
-      "packagesPath": "C:\\Users\\yumas\\.nuget\\packages\\",
-      "outputPath": "D:\\vscode\\master\\MasterProxy\\MasterProxy\\obj\\",
+      "projectPath": "E:\\vscode\\master\\MasterProxy\\MasterProxy\\MasterProxy.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\vscode\\master\\MasterProxy\\MasterProxy\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\yumas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -876,12 +873,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj": {
-              "projectPath": "D:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj"
+            "E:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj": {
+              "projectPath": "E:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj"
             },
-            "D:\\vscode\\master\\MasterProxy\\MasterProxy.Infrastructure\\MasterProxy.Infrastructure.csproj": {
-              "projectPath": "D:\\vscode\\master\\MasterProxy\\MasterProxy.Infrastructure\\MasterProxy.Infrastructure.csproj"
+            "E:\\vscode\\master\\MasterProxy\\MasterProxy.Infrastructure\\MasterProxy.Infrastructure.csproj": {
+              "projectPath": "E:\\vscode\\master\\MasterProxy\\MasterProxy.Infrastructure\\MasterProxy.Infrastructure.csproj"
             }
           }
         }
@@ -894,6 +892,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "LiteDB": {
             "target": "Package",
@@ -915,7 +914,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
