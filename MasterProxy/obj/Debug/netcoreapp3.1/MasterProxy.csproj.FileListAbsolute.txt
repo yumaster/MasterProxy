@@ -12,3 +12,17 @@ D:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.Dat
 D:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.Infrastructure.pdb
 D:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.csproj.CopyComplete
 D:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.csproj.CoreCompileInputs.cache
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.deps.json
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.dll
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.pdb
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.Data.dll
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.Infrastructure.dll
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.Data.pdb
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\netcoreapp3.1\MasterProxy.Infrastructure.pdb
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.csprojAssemblyReference.cache
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.AssemblyInfoInputs.cache
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.AssemblyInfo.cs
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.csproj.CoreCompileInputs.cache
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.csproj.CopyComplete
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.dll
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\netcoreapp3.1\MasterProxy.pdb
