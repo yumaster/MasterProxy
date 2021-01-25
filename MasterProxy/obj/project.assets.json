@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -842,7 +842,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "LiteDB >= 4.1.4",
       "MasterProxy.Data >= 1.0.0",
       "MasterProxy.Infrastructure >= 1.0.0"
@@ -865,15 +865,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "E:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj": {
               "projectPath": "E:\\vscode\\master\\MasterProxy\\MasterProxy.Data\\MasterProxy.Data.csproj"
@@ -891,8 +891,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "LiteDB": {
             "target": "Package",

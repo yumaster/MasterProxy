@@ -132,7 +132,7 @@ namespace MasterProxy.ServerHost
             }
 
 
-            Logger.Debug("NSmart server terminated. Press any key to continue.");
+            Logger.Debug("MasterProxy server terminated. Press any key to continue.");
             try
             {
                 //只是为了服务器挂了不那么快退出进程而已

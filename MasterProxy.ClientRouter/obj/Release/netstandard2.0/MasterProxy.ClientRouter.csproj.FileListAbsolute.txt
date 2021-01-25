@@ -1,0 +1,14 @@
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Release\netstandard2.0\MasterProxy.ClientRouter.deps.json
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Release\netstandard2.0\MasterProxy.ClientRouter.dll
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Release\netstandard2.0\MasterProxy.ClientRouter.pdb
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Release\netstandard2.0\MasterProxy.Data.dll
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Release\netstandard2.0\MasterProxy.Infrastructure.dll
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Release\netstandard2.0\MasterProxy.Data.pdb
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\bin\Release\netstandard2.0\MasterProxy.Infrastructure.pdb
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Release\netstandard2.0\MasterProxy.ClientRouter.csprojAssemblyReference.cache
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Release\netstandard2.0\MasterProxy.ClientRouter.AssemblyInfoInputs.cache
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Release\netstandard2.0\MasterProxy.ClientRouter.AssemblyInfo.cs
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Release\netstandard2.0\MasterProxy.ClientRouter.csproj.CoreCompileInputs.cache
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Release\netstandard2.0\MasterProxy.ClientRouter.csproj.CopyComplete
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Release\netstandard2.0\MasterProxy.ClientRouter.dll
+E:\vscode\master\MasterProxy\MasterProxy.ClientRouter\obj\Release\netstandard2.0\MasterProxy.ClientRouter.pdb

@@ -1,0 +1,17 @@
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\MasterProxy.deps.json
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\MasterProxy.dll
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\ref\MasterProxy.dll
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\MasterProxy.pdb
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\MasterProxy.Data.dll
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\MasterProxy.Infrastructure.dll
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\MasterProxy.Data.pdb
+E:\vscode\master\MasterProxy\MasterProxy\bin\Debug\net5.0\MasterProxy.Infrastructure.pdb
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.csprojAssemblyReference.cache
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.GeneratedMSBuildEditorConfig.editorconfig
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.AssemblyInfoInputs.cache
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.AssemblyInfo.cs
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.csproj.CoreCompileInputs.cache
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.csproj.CopyComplete
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.dll
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\ref\MasterProxy.dll
+E:\vscode\master\MasterProxy\MasterProxy\obj\Debug\net5.0\MasterProxy.pdb

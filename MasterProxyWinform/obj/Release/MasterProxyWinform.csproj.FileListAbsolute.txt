@@ -1,0 +1,2 @@
+E:\vscode\master\MasterProxy\MasterProxyWinform\obj\Release\MasterProxyWinform.csprojAssemblyReference.cache
+E:\vscode\master\MasterProxy\MasterProxyWinform\obj\Release\MasterProxyWinform.exe.config
